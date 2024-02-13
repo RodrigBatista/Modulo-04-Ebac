@@ -1,0 +1,137 @@
+* {
+    box-sizing: border-box;
+    margin: 0; padding: 0;
+}
+
+#Sports {background-color: rgba(0, 255, 0, 0.2);}
+
+#Sports .articles article a {
+background-color: rgba(0, 255, 0, 0.6);
+    color: black;}
+
+#Economy {background-color: rgba(0, 0, 255, 0.2);}
+
+#Economy .articles article a {
+    background-color: rgba(0, 0, 255, 0.6);
+    color: black;}
+
+#Entretenimento {background-color: rgba(255, 0, 0, 0.2);}
+
+#Entretenimento .articles article a {
+background-color: rgba(255, 0, 0, 0.6);
+color: black;}
+
+#Tecnologia {background-color: rgba(0, 255, 255, 0.2);}
+
+#Tecnologia .articles article a {
+    background-color: rgba(0, 255, 255, 0.6);
+    color: black;}
+
+body > header {
+    background-color: #272b31;
+    padding: 16px 0;
+    color: #fff;
+}
+
+header .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.container a:hover {
+    color: gray;
+}
+
+h1 {color: white;}
+
+#Economy h2 {color: rgb(85, 85, 200);}
+
+#Entretenimento h2 {color: rgb(233, 75, 75);}
+
+#Sports h2 {color: rgb(26, 117, 38);}
+
+#Tecnologia h2 {color: rgb(44, 130, 151);}
+
+header li {
+    display: inline;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin: 0 10px;
+}
+
+header li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.container {width: 1024px; margin: 0px auto;}
+
+.articles {display: flex; flex-wrap: wrap; justify-content: space-between;}
+
+.articles article img {
+    height: 180px;
+    width: 100%;
+}
+
+.articles article {width: 30%;}
+
+.botao img {
+    margin: 15px;
+    height: 40px;
+    position: fixed; bottom: 0; right: 0;
+    background-color: black;
+    padding: 3px;
+}
+
+section {
+    padding: 16px 0;
+}
+
+section h2, .articles article {
+    margin-bottom: 16px;
+}
+
+.articles article h3 {
+    margin-top: 8px; margin-bottom: 8px;
+}
+
+.articles article a {
+    padding: 8px;
+    display: inline-block;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.articles article a:hover {
+    text-decoration: underline;
+}
+
+.articles article p, .articles article a {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.articles article h3 {
+    font-size: 24px;
+}
+
+section h2 {
+    font-size: 32px;
+}
+
+.Home {
+    color: white; text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.Home:hover {
+    color: gray;
+}
+
+.espaço {
+    margin-top: 26px;
+    /* -O ler mais do "noite do superbowl" e do "noticias sobre a NBA" estão desalinhados do "grande clássico na noite de hoje" estou buscando um jeito de resolver essa questão.
+    -Está em conflito com o ".articles article a" se eu excluir a linha lá do "margin-top: 8px;" esse meu comando é respeitado*/
+}
+
